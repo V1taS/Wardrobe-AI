@@ -64,7 +64,6 @@ public func getMainIOSInfoPlist() -> ProjectDescription.InfoPlist {
     "CFBundleName": .string("\(appName) \(ai)"),
     "CFBundleDisplayName": .string("\(appName) \(ai)"),
     "CFBundleIdentifier": .string("\(bundle)"),
-    "LSApplicationCategoryType": .string("public.app-category.photo-video"),
     "ITSAppUsesNonExemptEncryption": .boolean(false),
     "TARGETED_DEVICE_FAMILY": .string("1,2"),
     "UIRequiresFullScreen": .boolean(true),
