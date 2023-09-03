@@ -1,7 +1,7 @@
 import json
 import re
 
-with open("SwiftCoder_versions.json", "r") as f:
+with open("Wardrobe_versions.json", "r") as f:
     versions = json.load(f)
 
 marketing_version = versions["marketing_version"]
